@@ -159,6 +159,12 @@ export default function Lecturers({ lecturers, handleReload}) {
                       scope="col"
                       className="relative py-3.5 pl-3 pr-4 sm:pr-6"
                     >
+                      <span className="">Courses</span>
+                    </th>
+                    <th
+                      scope="col"
+                      className="relative py-3.5 pl-3 pr-4 sm:pr-6"
+                    >
                       <span className="">Update</span>
                     </th>
                     <th
@@ -180,6 +186,16 @@ export default function Lecturers({ lecturers, handleReload}) {
                       </td>
                       <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                         {person.email}
+                      </td>
+                      <td className="relative whitespace-nowrap py-4 pl- pr-4 text-center text-sm font-medium sm:pr-6">
+                        <ul className="flex flex-row items-center justify-center">
+                          {person.courses.map((course) => (
+                            <li key={course.id} className="px-3  text-sm text-gray-500">
+                              {course.name} ,{course.code}
+                            </li>
+                          ))}
+                        </ul>
+
                       </td>
                       <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-center text-sm font-medium sm:pr-6">
                         <Link
