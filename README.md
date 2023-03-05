@@ -5,6 +5,9 @@ record-keeping is involved.For a school to be appropriately managed ,the framewo
 deal with all records of the school should be very much organized and moving along as
 planned.
 
+#Backend Link
+https://github.com/KEVIN-DEVV/phase-3-ruby-react-project
+
 # Problem Statement
 
 The methods involved in record keeping differ from set up to set up, but the more the system is
@@ -14,7 +17,7 @@ destroyed and retrieving the data is also very time consuming.
 It is even worse for larger learning institutions that do not have good school management
 frameworks in place. This can cause chaos and slow down production and work in the learning
 environment.
-Digilearn_Records is a platform designed to aid learning institutions manage their school
+SchoolFlix is a platform designed to aid learning institutions manage their school
 records better. They can be able to have all student details and also staff details all in one
 place, which can be easily accessed. It is exceptionally productive and saves alot of time.
 
@@ -34,4 +37,6 @@ The first version of the website must meet the following metrics;
 4. CSS
 5. Ruby
 6. Sinatra API
-Screenshot from 2023-03-05 09-26-15.png
+
+#WEBSITE SNAPSHOT 
+![Screenshot from 2023-03-05 09-26-15](https://user-images.githubusercontent.com/87125996/222945642-21bdf89c-179f-4cf3-af19-b9cba6a91237.png)
