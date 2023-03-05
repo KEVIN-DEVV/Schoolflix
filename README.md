@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We are familiar with the difficulties that accompany dealing with a school particularly while
+record-keeping is involved.For a school to be appropriately managed ,the frameworks set up to
+deal with all records of the school should be very much organized and moving along as
+planned.
 
-## Available Scripts
+# Problem Statement
 
-In the project directory, you can run:
+The methods involved in record keeping differ from set up to set up, but the more the system is
+well structured the better it is for the management of records. Some schools still hold onto the old
+ways of record-keeping through files and books which is very inefficient. For one the files can get
+destroyed and retrieving the data is also very time consuming.
+It is even worse for larger learning institutions that do not have good school management
+frameworks in place. This can cause chaos and slow down production and work in the learning
+environment.
+Digilearn_Records is a platform designed to aid learning institutions manage their school
+records better. They can be able to have all student details and also staff details all in one
+place, which can be easily accessed. It is exceptionally productive and saves alot of time.
 
-### `npm start`
+# Minimum Viable Product
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The first version of the website must meet the following metrics;
+● Schools can enter student details upon registration.
+● Schools can enter lecturer details.
+● Schools can get access to details of a specific course offered.
+● Schools can get access to student details and their respective classes and courses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Technologies
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. React.Js
+2. Bootstrap
+3. JSX
+4. CSS
+5. Ruby
+6. Sinatra API
+Screenshot from 2023-03-05 09-26-15.png
