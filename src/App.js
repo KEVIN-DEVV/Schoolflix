@@ -14,22 +14,20 @@ function App() {
   const[reload, setReload] =useState(false)
   const[del, setDelete] = useState(false)
   //fetch data from student endpoint API
+  console.log(students)
   useEffect(()=>{
     fetch("http://localhost:3000/students")
     .then(response=>response.json())
     .then(students => {
-      console.log(students)
       setStudents(students)
     })
   },[del])
-
 
   //fetch data from lecturer endpoint API
   useEffect(()=>{
     fetch("http://localhost:3000/lecturers")
     .then(response=>response.json())
     .then(lecturer => {
-      console.log(lecturer)
       setLecturers(lecturer)
     })
   },[reload])
@@ -41,7 +39,7 @@ function App() {
   function handleDelete(){
     setDelete(!del)
   }
-
+console.log(lecturers)
 
   return (
     <>
