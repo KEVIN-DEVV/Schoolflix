@@ -16,9 +16,9 @@ const Navbar = () => {
       {/* Navlinks */}
       <div className="flex  lg:flex-row md-flex-row justify-between sm:flex-col">
         <Link className="p-7 inline text-xl font-medium hover:text-white focus:text-white" to="/">Home</Link>
-        <Link className="p-7 inline text-xl font-medium hover:text-white focus:text-white" to="/contact_us">Contact us</Link>
-        <Link className="p-7 inline text-xl font-medium hover:text-white focus:text-white" to="/lectures">Lecturers</Link>
         <Link className="p-7 inline text-xl font-medium hover:text-white focus:text-white" to="/students">Students</Link>
+        <Link className="p-7 inline text-xl font-medium hover:text-white focus:text-white" to="/lectures">Lecturers</Link>
+        <Link className="p-7 inline text-xl font-medium hover:text-white focus:text-white" to="/contact_us">Contact us</Link>
       </div> 
     </div>
   );
