@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -12,14 +13,21 @@ function Home() {
           students, lecturers, and contacts.
         </p>
       </div>
+
       <div className="flex w-1/2 justify-around mt-24">
         <div>
-          <button className="text-white bg-[#c084fc] text-xl h-16 w-full px-10 rounded hover:bg-white hover:text-black">Our Students</button>
+          <Link to="/students">
+            <button className="text-white bg-[#c084fc] text-xl h-16 w-full px-10 rounded hover:bg-white hover:text-black">
+              Our Students
+            </button>
+          </Link>
         </div>
         <div>
-          <button className="text-white bg-[#c084fc] text-xl h-16 px-10 rounded hover:bg-white hover:text-black">
-            Our Lecturers
-          </button>
+          <Link to="/lectures">
+            <button className="text-white bg-[#c084fc] text-xl h-16 px-10 rounded hover:bg-white hover:text-black">
+              Our Lecturers
+            </button>
+          </Link>
         </div>
       </div>
     </div>
