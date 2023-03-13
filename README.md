@@ -5,8 +5,7 @@ record-keeping is involved.For a school to be appropriately managed ,the framewo
 deal with all records of the school should be very much organized and moving along as
 planned.
 
-#Backend Link
-https://github.com/KEVIN-DEVV/phase-3-ruby-react-project
+
 
 # Problem Statement
 
